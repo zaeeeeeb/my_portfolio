@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alisa Safina · Cyber Developer</title>
+
+    <!-- ===== ФАВИКОН ===== -->
+    <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+    <!-- ===================== -->
+
     <style>
-        /* ---- RESET & БАЗА ---- */
         * {
             margin: 0;
             padding: 0;
@@ -30,23 +34,10 @@
             box-shadow: 0 0 40px rgba(255, 42, 117, 0.15), inset 0 0 30px rgba(255, 42, 117, 0.03);
         }
 
-        /* ---- НЕОНОВЫЕ АКЦЕНТЫ ---- */
         .neon-pink {
             color: #ff2a75;
         }
 
-        .neon-border {
-            border-bottom: 2px solid #ff2a75;
-            padding-bottom: 0.3rem;
-            display: inline-block;
-            text-shadow: 0 0 8px rgba(255, 42, 117, 0.5);
-        }
-
-        .glow-text {
-            text-shadow: 0 0 12px rgba(255, 42, 117, 0.6);
-        }
-
-        /* ---- ЗАГОЛОВКИ ---- */
         h1 {
             font-size: 3.2rem;
             font-weight: 700;
@@ -76,7 +67,6 @@
             margin-bottom: 0.3rem;
         }
 
-        /* ---- КАРТОЧКИ ПРОЕКТОВ ---- */
         .project-card {
             background: #1a1a1a;
             border-left: 3px solid #ff2a75;
@@ -108,7 +98,6 @@
             word-break: break-word;
         }
 
-        /* ---- СПИСКИ НАВЫКОВ ---- */
         .skills-grid {
             display: flex;
             flex-wrap: wrap;
@@ -132,7 +121,6 @@
             box-shadow: 0 0 16px rgba(255, 42, 117, 0.5);
         }
 
-        /* ---- КОНТАКТЫ ---- */
         .contact-block {
             background: #1a1a1a;
             border-radius: 16px;
@@ -167,7 +155,6 @@
             padding-top: 1.5rem;
         }
 
-        /* ---- АДАПТИВ ---- */
         @media (max-width: 600px) {
             .container { padding: 1.5rem 1rem; }
             h1 { font-size: 2.4rem; }
@@ -179,7 +166,6 @@
 <body>
 <div class="container">
 
-    <!-- ШАПКА -->
     <h1>✦ Alisa Safina</h1>
     <p style="font-size: 1.2rem; color: #cccccc; margin-top: -0.2rem;">
         <span class="neon-pink">Developer</span> · Python · C++ · C
@@ -188,7 +174,6 @@
         Создаю инструменты для <span class="neon-pink">игр</span> и <span class="neon-pink">научных</span> проектов
     </p>
 
-    <!-- ОБО МНЕ -->
     <h2>▸ Обо мне</h2>
     <p style="font-size: 1.05rem;">
         Разработчик с опытом в медицинских и исследовательских проектах.
@@ -198,7 +183,6 @@
         Пишу чистый, документированный и тестируемый код.
     </p>
 
-    <!-- НАВЫКИ -->
     <h2>▸ Навыки</h2>
     <div class="skills-grid">
         <span class="skill-tag">Python (средний)</span>
@@ -215,7 +199,6 @@
         <span class="skill-tag">Анализ данных</span>
     </div>
 
-    <!-- ОПЫТ РАБОТЫ -->
     <h2>▸ Опыт работы</h2>
 
     <div class="project-card">
@@ -268,16 +251,13 @@
         <div class="stack"><strong>Стек:</strong> C, ncurses, Makefile, Git</div>
     </div>
 
-    <!-- ОБРАЗОВАНИЕ -->
     <h2>▸ Образование</h2>
     <p><strong>ПГНИУ</strong> — Математика (математическое моделирование), 2025–2029</p>
     <p><strong>Школа 21 (Сбер)</strong> — DevOps, 2026–н.в. (проектный формат, CI/CD, контейнеризация)</p>
 
-    <!-- ЯЗЫКИ -->
     <h2>▸ Языки</h2>
     <p>Английский — <span class="neon-pink">B2</span></p>
 
-    <!-- КОНТАКТЫ -->
     <div class="contact-block">
         <span>📧 <a href="mailto:alisasafina538@gmail.com">alisasafina538@gmail.com</a></span>
         <span>📱 +7 922 243-76-62</span>
